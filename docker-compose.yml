@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  vue:
+    build: ./containers/vue
+    tty: true
+    volumes:
+      - .:/workspace:cached
+    ports:
+      - "8090:8000"
