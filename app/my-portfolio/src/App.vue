@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div>
     <video id="video" autoplay="true" muted="true" loop="true"
-      src="./assets/Mouthpiece.mp4">
+      src="https://storage.googleapis.com/test-2023-0523-higuchi-2/Mouthpiece.mp4">
     </video>
 
     <div class="mv-txt">
